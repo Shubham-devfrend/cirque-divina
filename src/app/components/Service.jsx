@@ -61,7 +61,7 @@ const Service = () => {
                       </div>
                     </div>
                     <p className="font-bold lg:text-xl text-[#c176ff]">{item.title}</p>
-                    <div className="flex flex-col gap-3 text-neutral-400 lg:text-base text-xs">
+                    <div className="flex flex-col gap-3 text-neutral-400 lg:text-base text-sm">
                       <p>{item.description}</p>
                       <ul>
                         <li>&bull; {item.features[0]}</li>

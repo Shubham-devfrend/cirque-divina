@@ -55,12 +55,12 @@ const Service = () => {
                     className="w-full h-80 justify-center rounded-xl border border-neutral-700 hover:border-[#FBAB55] duration-300 px-4 py-6 gap-6 flex flex-col cursor-pointer"
                     spotlightColor="rgba(225, 229, 255, 0.2)"
                   >
-                    <div className="lg:w-28 lg:h-28 bg-neutral-700 rounded-xl flex items-center justify-center py-2">
-                      <div className="bg-[#FBAB55] rounded-full w-16 h-16 flex justify-center items-center text-xl">
+                    <div className="lg:w-28 lg:h-28 bg-[#472962] rounded-xl flex items-center justify-center py-2">
+                      <div className="bg-[#985acf] rounded-full w-16 h-16 flex justify-center items-center text-xl">
                         {item.icon}
                       </div>
                     </div>
-                    <p className="font-bold lg:text-xl text-[#FBAB55]">{item.title}</p>
+                    <p className="font-bold lg:text-xl text-[#c176ff]">{item.title}</p>
                     <div className="flex flex-col gap-3 text-neutral-400 lg:text-base text-xs">
                       <p>{item.description}</p>
                       <ul>
